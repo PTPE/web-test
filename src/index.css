@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.swiper {
+  @media screen and (max-width: 700px) {
+    display: none;
+  }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: rgb(202 138 4);
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
